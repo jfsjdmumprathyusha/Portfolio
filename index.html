@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Clicker+Script&family=Merriweather:ital@0;1&family=Poppins:wght@500&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+    <script id="view" text="text/x-handlebars-template">
+    <p>Thank you for your message {{name}} I will get in touch with you.</p>
+    </script>
+</head>
+<body>
+    <!--   Main start      -->
+    <div class="main-container">
+                <!--      Aside Start      -->
+                <div class="aside">
+                    <div class="logo">
+                        <a herf="#">PortFolio</a>
+                    </div>
+                    <div class="nav-toogler">
+                        <span></span>
+                    </div>
+                    <ul class="nav">
+                        <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                        <li><a href="#aboutme"><i class="fa fa-user"></i>About Me</a></li>
+                        <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                        <li><a href="#portfolio"><i class="fa fa-list"></i>Portfolio</a></li>
+                        <li><a href="#contact"><i class="fa fa-phone"></i>Contact</a></li>
+
+                    </ul>
+                </div>
+        <!--      Aside End      -->
+
+
+    
+        <!--      main content Start      -->
+        <div class="main-content ">
+            <!--Home Start-->
+            <section class="home section">
+                <div class="container"></div>
+                <div class="row">
+                  <div class="home-info padd-15">
+                      <h3 class="hello">Hello, my name is <span class="name">Prathyusha Ponnaganti</span></h3>
+                      <h3 class="my-profession">I'm a <span class="typing">Developer</span></h3>
+                      <p>I'm a Full stack Java developer Engaged in an intensive youth training program 
+                          designed to prepare participants for a position in the IT industry by learning 
+                          about coding, programming, professionalism, persistence, and the essential behavioral 
+                          skills and mindsets to be successful on the job.</p>
+                      <a href="#contact" class="btn hire-me">Hire Me</a>
+                  </div>
+                  <div class="home-img padd-15">
+                      <img src="images\photo.jpeg" alt="">
+                  </div>
+                </div>
+              </section>
+              <!--  Home End-->
+              <!-- About section start-->
+              <section class="about section" id="aboutme">
+                <div class="conatiner">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Prathyusha Ponnaganti and <span>Java full stack developer</span></h3>
+                                    <p>Looking for full time job opportunities as a full stack developer. 
+
+                                        Coding Languages: Javascript, HTML, CSS, Bootstarp, Git and github, commandline.
+                                        Software: Mysql
+                                        Upskilling: Java, React JS.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday : <span>16 Nov 1998</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>24</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree : <span>Civil Engineering</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>prathyushaprathyu.ce@gamil.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>+91 8074695771</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City : <span>Naidupeta</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="" class="btn" download="certificates\Resume .pdf" >Download CV</a>
+                                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <a href="" download="certificates\js.pdf"><h5>Js</h5></a>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 66%;"></div>
+                                                <div class="skill-percent">66%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <a href="" download="certificates\css.pdf"><h5>Css</h5></a>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 89%;"></div>
+                                                <div class="skill-percent">89%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <a href="" download="certificates\bootstarp.pdf"><h5>BootStrap</h5></a>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 76%;"></div>
+                                                <div class="skill-percent">76%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <a href="" download="certificates\HTML.pdf"><h5>HTML</h5></a>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 96%;"></div>
+                                                <div class="skill-percent">96%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <a href="" download=certificates\sql.pdf"><h5>MYSql</h5></a>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="display" style="display: flex;">
+                                <div class="row">
+                                    <div class="education padd-15">
+                                        <h3 class="title">Education</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
+                                                    <!--        timeline item       -->
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot">
+                                                            <h3 class="timeline-date">
+                                                                <i class="fa fa-calendar"></i> 2016 - 2020
+                                                            </h3>
+                                                            <h4 class="timeline-title">Bachelors in Civil Engineering</h4>
+                                                            <a href="" download="certificates\pc 2.pdf">                                                            <p class="timeline-text">
+                                                                NBKRIST, Vidyanagar — Bachelor of technology
+                                                                Aug 2016 - Nov 2020
+                                                                Civil engineering with CGPA of 6.89
+                                                                </p>certificate</a>
+                                                        </div>
+                                                    </div>                                                
+                                                    <!--        timeline item       -->
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot">
+                                                            <h3 class="timeline-date">
+                                                                <i class="fa fa-calendar"></i> 2014 - 2016
+                                                            </h3>
+                                                            <h4 class="timeline-title">Higher Secondary</h4>
+                                                            <a href="" download="certificates\inter certificate.pdf">                                                            <p class="timeline-text">Srivema jr college - Naidupeta —  Jun 2014 - April 2016
+                                                                Intermediate with percentage of 72%.
+                                                                </p>certificate</a>
+                                                        </div>
+                                                    </div>
+                                                    <!--end-->                                                 
+                                                    <!--        timeline item       -->
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot">
+                                                            <h3 class="timeline-date">
+                                                                <i class="fa fa-calendar"></i> 2013 - 2014
+                                                            </h3>
+                                                            <h4 class="timeline-title">Matriculation </h4>
+                                                            <a href="" download="certificates\Ssc.pdf">                                                            <p class="timeline-text">
+                                                                Vidthva Kendra EM school, Naidupeta — SSC
+                                                                Jun 2014 - April 2016
+                                                                SSC with GPA of 7.80.
+                                                            </p>Certificate</a>
+                                                        </div>
+                                                    </div>
+                                                    <!--end-->                                                                
+                                                </div>
+                                            </div>
+                                        </div>                                   
+                                    </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="certification padd-15">
+                                            <h3 class="title">Certifications</h3>
+                                            <div class="row">
+                                                <div class="timeline-box padd-15">
+                                                    <div class="timeline shadow-dark">
+                                                        <!--        timeline item       -->
+                                                        <div class="timeline-item">
+                                                            <div class="circle-dot">
+                                                                <h3 class="timeline-date">
+                                                                    <i class="fa fa-calendar"></i> Nov 2022
+                                                                </h3>
+                                                                <h4 class="timeline-title">HTML</h4>
+                                                                <a href="" download="certificates\HTML.pdf"><p class="timeline-text">Start at the beginning by learning HTML basics — an important foundation for building and editing web pages.</p>certificate</a>
+                                                            </div>
+                                                        </div>                                                
+                                                        <!--        timeline item       -->
+                                                        <div class="timeline-item">
+                                                            <div class="circle-dot">
+                                                                <h3 class="timeline-date">
+                                                                    <i class="fa fa-calendar"></i> Nov 2022
+                                                                </h3>
+                                                                <h4 class="timeline-title">CSS </h4>
+                                                                <a href="" download="certificates\css.pdf"><p class="timeline-text">In this CSS tutorial, you’ll learn how to add CSS to visually transform HTML into eye-catching sites.</p>certificate</a>
+                                                            </div>
+                                                        </div><!--end-->                                                 
+                                                        <!--        timeline item       -->
+                                                        <div class="timeline-item">
+                                                            <div class="circle-dot">
+                                                                <h3 class="timeline-date">
+                                                                    <i class="fa fa-calendar"></i> Dec 2022
+                                                                </h3>
+                                                                <h4 class="timeline-title">Bootstarp</h4>
+                                                                <a href="" download="certificates\js.pdf"><p class="timeline-text">Give your website a clear layout and polished style—fast! Learn how to use one of the most popular front-end frameworks, Bootstrap 4!</p>certificate</a>
+                                                            </div>
+                                                        </div>                                                           
+                                                        <!--        timeline item       -->
+                                                        <div class="timeline-item">
+                                                            <div class="circle-dot">
+                                                                <h3 class="timeline-date">
+                                                                    <i class="fa fa-calendar"></i> Dec 2022
+                                                                </h3>
+                                                                <h4 class="timeline-title">Javascript</h4>
+                                                                <a href="" download="certificates\js.pdf"><p class="timeline-text">Learn how to use JavaScript — a powerful and flexible programming language for adding website interactivity.</p>certificate</a>
+                                                            </div>
+                                                        </div>                                                                             
+                                                    </div>
+                                                </div>
+                                            </div>                                   
+                                        </div>
+                                        </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+              </section>
+              <!-- about section end  -->
+                                      <!-- Services section start -->
+                                      <section class="service section padd-15" id="services">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="section-title padd-15">
+                                                    <h2>Services</h2>
+                                                </div>
+                                            </div>
+                                            <!--    Services items start   -->
+                                            <div class="service-item padd-15">
+                                                <div class="service-item-inner">
+                                                    <div class="icon">
+                                                        <i class="fa fa-mobile-alt"></i>
+                                                    </div>
+                                                    <a href="#contact"><h4>Web Design</h4></a>
+                                                </div>
+                                            </div>
+                                            <!--    Services items End   -->
+                                            <!--    Services items start   -->
+                                            <div class="service-item padd-15">
+                                                <div class="service-item-inner">
+                                                    <div class="icon">
+                                                        <i class="fa fa-laptop-code"></i>
+                                                    </div>
+                                                    <a href="#contact"><h4>WebDevelpoment</h4></a>
+                                                </div>
+                                            </div>
+                                            <!--    Services items End   -->
+                                            <!--    Services items start   -->
+                                            <div class="service-item padd-15">
+                                                <div class="service-item-inner">
+                                                    <div class="icon">
+                                                        <i class="fa fa-palette"></i>
+                                                    </div>
+                                                    <a href="#contact"><h4>Freelancing</h4></a>
+                                                </div>
+                                            </div>
+                                            <!--    Services items End   -->
+                                        </div>
+                                    </section>
+                                    <!-- Services section End -->
+
+                                <!-- Portfolio section start -->
+                                <section class="portfolio section " id="portfolio">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="section-title padd-15 ">
+                                                <h2>PortFolio</h2>
+                                            </div>
+                                        </div>    
+                                            <div class="row">
+                                                <div class="portfolio-heading padd-15">
+                                                    <h2>My Last projects :</h2>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <!-- ======== protfolio item start ========-->
+                                                <div class="portfolio-item padd-15">
+                                                    <div class="portfolio-item-inner shadow-dark">
+                                                        <div class="portfolio-image">
+                                                            <a href="https://github.com/jfsjdmumprathyusha/fest.git"><img src="images\1.jpeg" style="width: 300px;height: 200px;"  alt=""></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ======== protfolio item End ========-->
+                                                <!-- ======== protfolio item start ========-->
+                                                <div class="portfolio-item padd-15">
+                                                    <div class="portfolio-item-inner shadow-dark">
+                                                        <div class="portfolio-image">
+                                                            <a href="https://github.com/jfsjdmumprathyusha/colmarproject.git"><img src="images\2.jpeg" style="width: 300px; height: 200px;"  alt=""></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ======== protfolio item End ========-->
+                                                <!-- ======== protfolio item start ========-->
+                                                <div class="portfolio-item padd-15">
+                                                    <div class="portfolio-item-inner shadow-dark">
+                                                        <div class="portfolio-image">
+                                                            <a href="https://github.com/jfsjdmumprathyusha/excursion.git"><img src="images\3.jpeg" style="width: 300px;height: 200px;"  alt=""></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ======== protfolio item End ========-->
+                                                <!-- ======== protfolio item start ========-->
+                                                <div class="portfolio-item padd-15">
+                                                    <div class="portfolio-item-inner shadow-dark">
+                                                        <div class="portfolio-image">
+                                                            <a href="https://github.com/jfsjdmumprathyusha/Lottery-.git"><img src="images\4.jpeg" style="width: 300px;height: 200px;"  alt=""></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ======== protfolio item End ========-->
+                                                <!-- ======== protfolio item start ========-->
+                                                <div class="portfolio-item padd-15">
+                                                    <div class="portfolio-item-inner shadow-dark">
+                                                        <div class="portfolio-image">
+                                                            <a href="https://github.com/jfsjdmumprathyusha/planing.git"><img src="images\5.jpeg" style="width: 300px; height: 200px;"  alt=""></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                </section>
+                                            <!-- ======== protfolio item End ========-->
+                                            <!-- ======== Contact section start ========-->
+                                            <section class="contact section" id="contact">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="section-title padd-15 ">
+                                                            <h2>Contact Me</h2>
+                                                        </div>
+                                                    </div>
+                                                    <h3 class="contact-title padd-15">If you have any question?</h3>
+                                                    <h4 class="contact-sub-title padd-15">I am at your services</h4>
+                                                    <div class="row">
+                                                        <!-- ======= Contact info item start ========-->
+                                                        <div class="contact-info-item padd-15">
+                                                            <div class="icon"><i class="fa fa-phone"></i></div>
+                                                            <h4>Call Us On</h4>
+                                                            <p>+91 8074695771</p>
+                                                        </div>
+                                                        <!-- ======= Contact info item End ========-->
+                                                        <!-- ======= Contact info item start ========-->
+                                                        <div class="contact-info-item padd-15">
+                                                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                                                            <h4>Address</h4>
+                                                            <p>Andhrapradesh Naidupeta <br>pin: 524126</br></p>
+                                                        </div>
+                                                        <!-- ======= Contact info item End ========-->
+                                                        <!-- ======= Contact info item start ========-->
+                                                        <div class="contact-info-item padd-15">
+                                                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                                                            <h4>Email</h4>
+                                                            <p>prathyushaprathyu.ce@gmail.com</p>
+                                                        </div>
+                                                        <!-- ======= Contact info item End ========-->
+                                                        <!-- ======= Contact info item start ========-->
+                                                        <div class="contact-info-item padd-15">
+                                                            <div class="icon"><i class="fa-brands fa-github" style="font-size:24px; color:red"></i></div>
+                                                            <a href="https://github.com/jfsjdmumprathyusha"><h4>github</h4></a>
+                                                            <p>github account</p>
+                                                        </div>
+                                                        <!-- ======= Contact info item End ========-->
+                                                        <!-- ======= Contact info item start ========-->
+                                                        <div class="contact-info-item padd-15">
+                                                            <div class="icon"><i class="fa-brands fa-linkedin" style="font-size:24px; color:red"></i></div>
+                                                            <a href="https://www.linkedin.com/in/prathyusha-ponnaganti-0b2a86181/"><h4>Linkedin</h4></a>
+                                                            <p>Linkedin Profile</p>
+                                                        </div>
+                                                        <!-- ======= Contact info item End ========-->
+                                                                                                                
+                                                    </div>
+                                                    <h3 class="contact-title padd-15">SEND Me Email</h3>
+                                                    <h4 class="contact-sub-title padd-15">I'M very responsive</h4>
+                                                    <!--   ======== Contact Form ========  -->
+                                                    <div class="row">
+                                                        <div class="contact-form padd-15">
+                                                            <div class="row">
+                                                                <div class="form-item col-6 padd-15">
+                                                                    <div class="form-group">
+                                                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-item col-6 padd-15">
+                                                                    <div class="form-group">
+                                                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="form-item col-12 padd-15">
+                                                                    <div class="form-group">
+                                                                        <textarea name="" class="form-control" id="message" placeholder="Message"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="form-item col-12 padd-15">
+                                                                    <button type="submit" id="bt1" class="btn">Send Message</button>
+                                                                </div>
+                                                                <div id="finalmessage"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <!-- ======== Contact section End ========-->
+                                        </div>
+                                    </div>
+                                </div>                                
+                                <!-- Portfolio section End -->
+
+
+
+
+        </div>
+        <!--      main content End      -->
+    </div>
+
+
+ <script src="script.js"></script>   
+</body>
+</html>
